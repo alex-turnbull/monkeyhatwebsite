@@ -16,8 +16,8 @@ body, html {
   background-image: url("images/island.png");
 
   /* Add the blur effect*/
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
 
   /*Full height*/
   height: 100%;
@@ -51,20 +51,21 @@ a:link, a:visited {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+	
 }
 
 a:hover, a:active {
-  background-color: red;
+  background-color: #646464;
 }
 
 a.twitter:link {
-	background-color: #00A9C4;
+	background-color: #000000;
 }
 
 a.instagram:link {
-	background-color: #C70082;
+	background-color: #000000;
 }
 
 a.facebook:link {
-	background-color: #0200FF;
+	background-color: #000000;
 }
