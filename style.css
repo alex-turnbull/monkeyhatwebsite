@@ -1,10 +1,20 @@
 @charset "utf-8";
 /* CSS Document */
 
+@font-face {
+    font-family: 'curse_casualregular';
+    src: url('fonts/curse_casual-webfont.woff2') format('woff2'),
+         url('fonts/curse_casual-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 body, html {
   height: 100%;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'curse_casualregular';
+  letter-spacing: 1px;
 }
 
 * {
