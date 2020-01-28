@@ -11,6 +11,7 @@
 
 
 body, html {
+  background-color: rgb(39,152,244);
   height: 100%;
   margin: 0;
   font-family: 'curse_casualregular';
@@ -44,7 +45,7 @@ body, html {
   background-color: rgba(39,152,244,0.50); /* Black w/opacity/see-through */
   color: #9FCB73;
   font-weight: bold;
-  border: 3px solid #000AD3;
+  border: 2px dotted #000AD3;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -69,13 +70,13 @@ a:hover, a:active {
 }
 
 a.twitter:link {
-	background-color: #000000;
+	background-color: rgba(89,181,255,0.20);
 }
 
 a.instagram:link {
-	background-color: #000000;
+	background-color: rgba(89,181,255,0.20);
 }
 
 a.facebook:link {
-	background-color: #000000;
+	background-color: rgba(89,181,255,0.20);
 }
