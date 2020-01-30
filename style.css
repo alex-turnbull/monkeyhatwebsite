@@ -32,11 +32,19 @@ body, html {
 
 .bg-image {
   /* The image used */
-  /*background-image: url("images/island.png");*/
+  background-image: url("images/island.png");
 
   /* Add the blur effect*/
   filter: blur(10px);
   -webkit-filter: blur(10px);
+	
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* Position text in the middle of the page/image */
