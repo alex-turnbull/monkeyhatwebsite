@@ -41,10 +41,14 @@ body, html {
   /* Full height */
   height: 100%;
 
-  /* Center and scale the image nicely */
+  /* Center and scale the image nicely
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;*/
+}
+
+.video{
+	pointer-events: none;
 }
 
 /* Position text in the middle of the page/image */
@@ -89,6 +93,14 @@ a.instagram:link {
 }
 
 a.facebook:link {
+	background-color: rgba(0,172,12,0.40);
+	border-radius: 10px;
+}
+
+a.youtube:link {
+	background-color: rgba(0,172,12,0.40);
+	border-radius: 10px;
+}
 	background-color: rgba(0,172,12,0.40);
 	border-radius: 10px;
 }
